@@ -1,0 +1,9 @@
+$(function(){
+    $(".box").hover(function(){
+      $(document).find("div.overlay").show().css("display","inline");
+    }
+                    ,function(){
+                        $(document).find("div.overlay").hide().css("display","none");
+                    }
+                   );        
+});
